@@ -4,7 +4,6 @@
 
 - **Nama:** Sri Zul'Aini Ulya
 - **NIM:** F1D02410096
-- **Kelas:** 5C
 - **Mata Kuliah:** Pemrograman Web Lanjut
 
 ## Deskripsi Tugas
