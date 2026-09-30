@@ -76,7 +76,7 @@ console.log("DATA TEMAN");
 console.log("=================================================");
 console.table(teman);
 
-// MAP
+
 const daftarNama = teman.map((item) => item.nama.toUpperCase());
 
 console.log("\n=================================================");
@@ -85,7 +85,7 @@ console.log("=================================================");
 console.log("Daftar nama teman dalam huruf kapital:");
 console.log(daftarNama);
 
-// FILTER
+
 const temanAngkaNimBesar = teman.filter((item) => item.angkaNim > 50);
 
 console.log("\n=================================================");
@@ -94,7 +94,7 @@ console.log("=================================================");
 console.log("Teman dengan angka NIM lebih dari 50:");
 console.table(temanAngkaNimBesar);
 
-// REDUCE
+
 const totalAngkaNim = teman.reduce(
   (total, item) => total + item.angkaNim,
   0,
@@ -105,7 +105,7 @@ console.log("3. REDUCE()");
 console.log("=================================================");
 console.log("Total seluruh angka NIM:", totalAngkaNim);
 
-// FIND
+
 const temanNonton = teman.find((item) => item.hobi === "Nonton");
 
 console.log("\n=================================================");
@@ -115,7 +115,7 @@ console.log("Teman yang dicari berdasarkan hobi: Nonton");
 console.log("Hasil pencarian:");
 console.log(temanNonton);
 
-// SOME
+
 const adaHobiLebihDari8Jam = teman.some(
   (item) => item.jamPerMinggu > 8,
 );
@@ -128,7 +128,7 @@ console.log(
   adaHobiLebihDari8Jam,
 );
 
-// EVERY
+
 const semuaAngkaNimPositif = teman.every(
   (item) => item.angkaNim > 0,
 );

@@ -37,12 +37,13 @@ Data tersebut digunakan sebagai dasar penerapan keenam metode array dengan kasus
 
 Mengubah seluruh nama teman menjadi huruf kapital.
 
-### Kode dan Hasil Output
+### Kode
 
-![Map](screenshot/map.png)
+![Map](screenshot/kode_map.png)
 
-### Hasil
+### Output
 
+![Map](screenshot/output_map.png)
 Metode `map()` berhasil menghasilkan array baru yang berisi seluruh nama teman dalam bentuk huruf kapital.
 
 ---
@@ -53,12 +54,13 @@ Metode `map()` berhasil menghasilkan array baru yang berisi seluruh nama teman d
 
 Mengambil data teman yang memiliki angka NIM lebih dari 50.
 
-### Kode dan Hasil Output
+### Kode
 
-![Filter](screenshot/filter.png)
+![Filter](screenshot/kode_filter.png)
 
-### Hasil
+### Output
 
+![Filter](screenshot/output_filter.png)
 Metode `filter()` menghasilkan 7 data teman yang memiliki angka NIM lebih dari 50, yaitu Ulya, Rifqy, Akbar, Anis, Liya, Firda, dan Sagos.
 
 ---
@@ -69,12 +71,13 @@ Metode `filter()` menghasilkan 7 data teman yang memiliki angka NIM lebih dari 5
 
 Menghitung total seluruh angka NIM dari data teman.
 
-### Kode dan Hasil Output
+### Kode
 
-![Reduce](screenshot/reduce.png)
+![Reduce](screenshot/kode_reduce.png)
 
-### Hasil
+### Output
 
+![Reduce](screenshot/output_reduce.png)
 Metode `reduce()` menghasilkan total seluruh angka NIM sebesar **687**.
 
 ---
@@ -85,12 +88,13 @@ Metode `reduce()` menghasilkan total seluruh angka NIM sebesar **687**.
 
 Mencari teman pertama yang memiliki hobi "Nonton".
 
-### Kode dan Hasil Output
+### Kode
 
-![Find](screenshot/find.png)
+![Find](screenshot/kode_find.png)
 
-### Hasil
+### Output
 
+![Find](screenshot/output_find.png)
 Metode `find()` menemukan **Ratu** sebagai data pertama yang memiliki hobi "Nonton".
 
 ---
@@ -101,12 +105,13 @@ Metode `find()` menemukan **Ratu** sebagai data pertama yang memiliki hobi "Nont
 
 Mengecek apakah terdapat teman yang melakukan hobinya lebih dari 8 jam dalam satu minggu.
 
-### Kode dan Hasil Output
+### Kode
 
-![Some](screenshot/some.png)
+![Some](screenshot/kode_some.png)
 
-### Hasil
+### Output
 
+![Some](screenshot/output_some.png)
 Metode `some()` menghasilkan `true` karena terdapat teman yang melakukan hobi lebih dari 8 jam dalam satu minggu, yaitu Sagos dengan durasi 10 jam.
 
 ---
@@ -117,12 +122,13 @@ Metode `some()` menghasilkan `true` karena terdapat teman yang melakukan hobi le
 
 Mengecek apakah semua teman memiliki angka NIM lebih dari 0.
 
-### Kode dan Hasil Output
+### Kode
 
-![Every](screenshot/every.png)
+![Every](screenshot/kode_every.png)
 
-### Hasil
+### Output
 
+![Every](screenshot/output_every.png)
 Metode `every()` menghasilkan `true` karena seluruh data teman memiliki angka NIM lebih dari 0.
 
 ---
